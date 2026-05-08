@@ -1,0 +1,36 @@
+{
+  "DatabaseVersion": "1.0",
+  "LastUpdated": "2026-05-09",
+  "SupportedProcessors": [
+    {
+      "HwCode": "0x0279",
+      "CpuName": "MT6765",
+      "PayloadFile": "MT6765_payload.bin",
+      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+    },
+    {
+      "HwCode": "0x0321",
+      "CpuName": "MT6768",
+      "PayloadFile": "MT6768_payload.bin",
+      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+    },
+    {
+      "HwCode": "0x0813",
+      "CpuName": "MT6779",
+      "PayloadFile": "MT6779_payload.bin",
+      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+    },
+    {
+      "HwCode": "0x0900",
+      "CpuName": "MT6877",
+      "PayloadFile": "MT6877_payload.bin",
+      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+    },
+    {
+      "HwCode": "0x0690",
+      "CpuName": "MT6781",
+      "PayloadFile": "MT6781_payload.bin",
+      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+    }
+  ]
+}
