@@ -1,186 +1,306 @@
 {
-  "DatabaseVersion": "1.1",
+  "DatabaseVersion": "1.4",
   "LastUpdated": "2026-05-09",
   "SupportedProcessors": [
     {
+      "HwCode": "0x2601",
+      "CpuName": "MT2601",
+      "PayloadFile": "mt2601_payload.bin",
+      "DefaultDaFile": "MTK_AllInOne_DA_iot.bin"
+    },
+    {
+      "HwCode": "0x2625",
+      "CpuName": "MT2625",
+      "PayloadFile": "mt2625_payload.bin",
+      "DefaultDaFile": "MTK_AllInOne_DA_2625.bin"
+    },
+    {
+      "HwCode": "0x7687",
+      "CpuName": "MT7687",
+      "PayloadFile": "mt7687_payload.bin",
+      "DefaultDaFile": "MTK_AllInOne_DA_7687.bin"
+    },
+    {
+      "HwCode": "0x6261",
+      "CpuName": "MT6261",
+      "PayloadFile": "mt6261_payload.bin",
+      "DefaultDaFile": "MTK_DA_V5.bin"
+    },
+    {
       "HwCode": "0x6572",
       "CpuName": "MT6572",
-      "PayloadFile": "MT6572_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6572_payload.bin",
+      "DefaultDaFile": "MTK_DA_V5.bin"
+    },
+    {
+      "HwCode": "0x6575",
+      "CpuName": "MT6575",
+      "PayloadFile": "mt6575_payload.bin",
+      "DefaultDaFile": "MTK_DA_V5.bin"
     },
     {
       "HwCode": "0x0650",
       "CpuName": "MT6580",
-      "PayloadFile": "MT6580_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6580_payload.bin",
+      "DefaultDaFile": "MTK_DA_V5.bin"
     },
     {
       "HwCode": "0x6582",
       "CpuName": "MT6582",
-      "PayloadFile": "MT6582_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6582_payload.bin",
+      "DefaultDaFile": "MTK_DA_V5.bin"
+    },
+    {
+      "HwCode": "0x6590",
+      "CpuName": "MT6590",
+      "PayloadFile": "mt6590_payload.bin",
+      "DefaultDaFile": "MTK_AllInOne_DA_mt6590.bin"
     },
     {
       "HwCode": "0x6592",
       "CpuName": "MT6592",
-      "PayloadFile": "MT6592_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6592_payload.bin",
+      "DefaultDaFile": "MTK_DA_V5.bin"
+    },
+    {
+      "HwCode": "0x6595",
+      "CpuName": "MT6595",
+      "PayloadFile": "mt6595_payload.bin",
+      "DefaultDaFile": "MTK_DA_V5.bin"
     },
     {
       "HwCode": "0x0335",
       "CpuName": "MT6735",
-      "PayloadFile": "MT6735_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6735_payload.bin",
+      "DefaultDaFile": "MTK_DA_V5.bin"
     },
     {
       "HwCode": "0x0337",
       "CpuName": "MT6737",
-      "PayloadFile": "MT6737_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6737_payload.bin",
+      "DefaultDaFile": "MTK_DA_V5.bin"
     },
     {
       "HwCode": "0x0217",
       "CpuName": "MT6739",
-      "PayloadFile": "MT6739_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6739_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
+    },
+    {
+      "HwCode": "0x6752",
+      "CpuName": "MT6752",
+      "PayloadFile": "mt6752_payload.bin",
+      "DefaultDaFile": "MTK_DA_V5.bin"
     },
     {
       "HwCode": "0x0328",
       "CpuName": "MT6753",
-      "PayloadFile": "MT6753_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6753_payload.bin",
+      "DefaultDaFile": "MTK_DA_V5.bin"
     },
     {
       "HwCode": "0x0261",
       "CpuName": "MT6755",
-      "PayloadFile": "MT6755_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA_2625.bin"
+      "PayloadFile": "mt6755_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0548",
       "CpuName": "MT6757",
-      "PayloadFile": "MT6757_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6757_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x08A0",
       "CpuName": "MT6761",
-      "PayloadFile": "MT6761_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6761_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0763",
       "CpuName": "MT6763",
-      "PayloadFile": "MT6763_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6763_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0279",
       "CpuName": "MT6765",
-      "PayloadFile": "MT6765_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6765_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0321",
       "CpuName": "MT6768",
-      "PayloadFile": "MT6768_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6768_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0788",
       "CpuName": "MT6771",
-      "PayloadFile": "MT6771_payload.bin",
-      "DefaultDaFile": "MTK_DA_V5.bin"
+      "PayloadFile": "mt6771_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0813",
       "CpuName": "MT6779",
-      "PayloadFile": "MT6779_payload.bin",
+      "PayloadFile": "mt6779_payload.bin",
       "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0690",
       "CpuName": "MT6781",
-      "PayloadFile": "MT6781_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6781_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0812",
       "CpuName": "MT6785",
-      "PayloadFile": "MT6785_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6785_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0228",
       "CpuName": "MT6789",
-      "PayloadFile": "MT6789_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6789_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0695",
       "CpuName": "MT6795",
-      "PayloadFile": "MT6795_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6795_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0210",
       "CpuName": "MT6797",
-      "PayloadFile": "MT6797_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6797_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
+    },
+    {
+      "HwCode": "0x0799",
+      "CpuName": "MT6799",
+      "PayloadFile": "mt6799_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0683",
       "CpuName": "MT6833",
-      "PayloadFile": "MT6833_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6833_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0853",
       "CpuName": "MT6853",
-      "PayloadFile": "MT6853_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6853_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0873",
       "CpuName": "MT6873",
-      "PayloadFile": "MT6873_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6873_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0900",
       "CpuName": "MT6877",
-      "PayloadFile": "MT6877_payload.bin",
+      "PayloadFile": "mt6877_payload.bin",
       "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0885",
       "CpuName": "MT6885",
-      "PayloadFile": "MT6885_payload.bin",
+      "PayloadFile": "mt6885_payload.bin",
       "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0889",
       "CpuName": "MT6889",
-      "PayloadFile": "MT6889_payload.bin",
+      "PayloadFile": "mt6889_payload.bin",
       "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0891",
       "CpuName": "MT6891",
-      "PayloadFile": "MT6891_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6891_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0893",
       "CpuName": "MT6893",
-      "PayloadFile": "MT6893_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6893_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
       "HwCode": "0x0983",
       "CpuName": "MT6983",
-      "PayloadFile": "MT6983_payload.bin",
-      "DefaultDaFile": "MTK_AllInOne_DA.bin"
+      "PayloadFile": "mt6983_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
+    },
+    {
+      "HwCode": "0x8127",
+      "CpuName": "MT8127",
+      "PayloadFile": "mt8127_payload.bin",
+      "DefaultDaFile": "MTK_DA_V5.bin"
+    },
+    {
+      "HwCode": "0x8163",
+      "CpuName": "MT8163",
+      "PayloadFile": "mt8163_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
+    },
+    {
+      "HwCode": "0x8167",
+      "CpuName": "MT8167",
+      "PayloadFile": "mt8167_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
+    },
+    {
+      "HwCode": "0x8168",
+      "CpuName": "MT8168",
+      "PayloadFile": "mt8168_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
+    },
+    {
+      "HwCode": "0x8173",
+      "CpuName": "MT8173",
+      "PayloadFile": "mt8173_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
+    },
+    {
+      "HwCode": "0x8176",
+      "CpuName": "MT8176",
+      "PayloadFile": "mt8176_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
+    },
+    {
+      "HwCode": "0x8183",
+      "CpuName": "MT8183",
+      "PayloadFile": "mt8183_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
+    },
+    {
+      "HwCode": "0x8512",
+      "CpuName": "MT8512",
+      "PayloadFile": "mt8512_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
+    },
+    {
+      "HwCode": "0x8516",
+      "CpuName": "MT8516",
+      "PayloadFile": "mt8516_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
+    },
+    {
+      "HwCode": "0x8590",
+      "CpuName": "MT8590",
+      "PayloadFile": "mt8590_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
+    },
+    {
+      "HwCode": "0x8695",
+      "CpuName": "MT8695",
+      "PayloadFile": "mt8695_payload.bin",
+      "DefaultDaFile": "MTK_DA_V6.bin"
     }
   ]
 }
