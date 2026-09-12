@@ -1,6 +1,6 @@
 {
   "DatabaseVersion": "1.6",
-  "LastUpdated": "2026-05-09",
+  "LastUpdated": "2026-09-12",
   "SupportedProcessors": [
     {
       "HwCode": "0x2503",
@@ -433,6 +433,12 @@
       "CpuName": "MT8788",
       "PayloadFile": "mt8788_payload.bin",
       "DefaultDaFile": "MTK_DA_V6.bin"
+    },
+    {
+      "HwCode": "0x6768",
+      "CpuName": "MT6768",
+      "PayloadFile": "exploits/MEDIATEK_Redmi 9_Payload.elsafey",
+      "DefaultDaFile": "DA_Agents/Generic/MTK_DA_V5.elsafey"
     }
   ]
 }
