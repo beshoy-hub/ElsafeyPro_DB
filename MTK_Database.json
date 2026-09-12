@@ -429,19 +429,13 @@
       "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
-      "HwCode": "0xFE09",
-      "CpuName": "MT6768",
-      "PayloadFile": "exploits/XIAOMI_Redmi 9_Payload.elsafey",
-      "DefaultDaFile": "DA_Agents/Generic/MTK_AllInOne_DA_mt6768.elsafey"
-    },
-    {
       "HwCode": "0x8788",
       "CpuName": "MT8788",
       "PayloadFile": "mt8788_payload.bin",
       "DefaultDaFile": "MTK_DA_V6.bin"
     },
     {
-      "HwCode": "0x6768",
+      "HwCode": "0xFE09",
       "CpuName": "MT6768",
       "PayloadFile": "exploits/XIAOMI_Redmi 9_Payload.elsafey",
       "DefaultDaFile": "DA_Agents/Generic/DA_6765_6785_6768_6873_6885_6853.elsafey"
