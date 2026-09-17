@@ -1,6 +1,6 @@
 {
   "DatabaseVersion": "1.6",
-  "LastUpdated": "2026-09-13",
+  "LastUpdated": "2026-09-18",
   "SupportedProcessors": [
     {
       "HwCode": "0x2503",
@@ -439,6 +439,12 @@
       "CpuName": "MT6768",
       "PayloadFile": "exploits/XIAOMI_Redmi 9_Payload.elsafey",
       "DefaultDaFile": "DA_Agents/Generic/DA_6765_6785_6768_6873_6885_6853.elsafey"
+    },
+    {
+      "HwCode": "0x6768",
+      "CpuName": "MT6768",
+      "PayloadFile": "exploits/XIAOMI_Redmi 9_Payload.elsafey",
+      "DefaultDaFile": "DA_Agents/Generic/MTK_DA_V5.elsafey"
     }
   ]
 }
