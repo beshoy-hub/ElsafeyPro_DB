@@ -438,7 +438,7 @@
       "HwCode": "0xFE09",
       "CpuName": "MT6768",
       "PayloadFile": "exploits/XIAOMI_Redmi 9_Payload.elsafey",
-      "DefaultDaFile": "DA_Agents/Generic/DA_PL.elsafey"
+      "DefaultDaFile": "payloads/MTK/Preloaders/XIAOMI/Redmi_9"
     },
     {
       "HwCode": "0x6768",
