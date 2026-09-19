@@ -1,6 +1,6 @@
 {
   "DatabaseVersion": "1.6",
-  "LastUpdated": "2026-09-18",
+  "LastUpdated": "2026-09-19",
   "SupportedProcessors": [
     {
       "HwCode": "0x2503",
@@ -444,7 +444,7 @@
       "HwCode": "0x6768",
       "CpuName": "MT6768",
       "PayloadFile": "exploits/XIAOMI_Redmi 9_Payload.elsafey",
-      "DefaultDaFile": "DA_Agents/Generic/DA_PL.elsafey"
+      "DefaultDaFile": "DA_Agents/Generic/preloader_lancelot.elsafey"
     }
   ]
 }
